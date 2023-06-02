@@ -40,18 +40,21 @@
 					<fieldset>
 						<legend>Seu carro é carro de patrão?</legend>
 						<label><input type="radio" name="carro" id="luxo" value="luxo"> Carro de Luxo</label>
-						<label><input type="radio" name="carro" id="casual" value="casual"> Carro casual</label><br><br>
-						<input type="text" placeholder="Url da foto do carro" name="carroURL" required>
-						<button type="submit">Enviar</button>
+						<label><input type="radio" name="carro" id="casual" value="casual" checked> Carro casual</label>
 					</fieldset>
 					<fieldset>
 						<legend>Qual a cor do seu carro?</legend>
-						<input type="checkbox" name="cor"> Amarelo <br>
-						<input type="checkbox" name="cor"> Vermelho <br>
-						<input type="checkbox" name="cor"> Azul <br>
+						<input type="checkbox" name="cor" id="amarelo" checked><label for="amarelo">Amarelo</label><br>
+						<input type="checkbox" name="cor" id="vermelho"><label for="vermelho">Vermelho</label><br>
+						<input type="checkbox" name="cor" id="azul"><label for="azul">Azul</label><br>
 					</fieldset>
+					<input type="text" placeholder="Url da foto do carro" name="carroURL" required>
+					<button type="submit">Enviar</button>
 				</form>
 			</section>
 	</main>
+	<footer>
+		<p>Primeiro teste feito com HTML sob tutoria de freeCodeCamp</p>
+	</footer>
 </body>
 </html>
