@@ -36,11 +36,20 @@
 			</section>
 			<section>
 				<h2>Formulário de carros</h2>
-				<form action="https://freecatphotoapp.com/submit-cat-photo">
-					<label><input type="radio" name="carro" id="luxo"> Carro de Luxo</label>
-					<label><input type="radio" name="carro" id="casual"> Carro casual</label>
-					<input type="text" placeholder="Url da foto do carro" name="carroURL" required>
-					<button type="submit">Enviar</button>
+				<form action="https://freecatphotoapp.com/main.html">
+					<fieldset>
+						<legend>Seu carro é carro de patrão?</legend>
+						<label><input type="radio" name="carro" id="luxo" value="luxo"> Carro de Luxo</label>
+						<label><input type="radio" name="carro" id="casual" value="casual"> Carro casual</label><br><br>
+						<input type="text" placeholder="Url da foto do carro" name="carroURL" required>
+						<button type="submit">Enviar</button>
+					</fieldset>
+					<fieldset>
+						<legend>Qual a cor do seu carro?</legend>
+						<input type="checkbox" name="cor"> Amarelo <br>
+						<input type="checkbox" name="cor"> Vermelho <br>
+						<input type="checkbox" name="cor"> Azul <br>
+					</fieldset>
 				</form>
 			</section>
 	</main>
