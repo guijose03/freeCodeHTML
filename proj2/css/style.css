@@ -9,6 +9,7 @@ p{
 }
 body{
 	background-color: #848b80;
+	font-family: arial;
 }
 main{
 	background-color: lightgoldenrodyellow;
@@ -17,6 +18,10 @@ main{
 	margin-right: auto;
 	border-radius: 10px;
 	margin-bottom: -10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
 }
 .menu{
 	width: 65%;
@@ -29,16 +34,39 @@ main{
 	width: 50px;
 	margin-left: 400px;
 	margin-top: 15px;
-	margin-bottom: -20px;
 }
 .img-footer{
 	width: 50px;
 	margin-left: 400px;
+	margin-top: 15px;
 }
 .apresentation{
 	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 25px;
 	background-color: lightgoldenrodyellow;
 	border-radius: 10px;
+		padding-right: 20px;
+	padding-left: 20px;
+}
+.times{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgoldenrodyellow;
+	border-radius: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.name_team{
+	width: 50%;
+	text-align: left;
+}
+.year_team{
+	width: 50%;
+	text-align: right;
+}
+.times p{
+	display: inline-block;
 }
